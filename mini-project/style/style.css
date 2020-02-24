@@ -1,0 +1,881 @@
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    clear: both;
+
+}
+
+.title-header {
+
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    position: absolute;
+    bottom: 40px;
+    left: 8% !important;
+    color: rgba(75, 71, 71, 0.7);
+
+
+}
+
+.img-header {
+
+    overflow-y: hidden;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    background: transparent;
+
+}
+
+.card-form {
+
+    position: absolute;
+    top: 50%;
+
+}
+
+.label-text {
+
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: rgba(54, 53, 53, 0.7);
+
+}
+
+select,
+optgroup,
+option {
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(54, 53, 53, 0.7);
+
+}
+
+button {
+
+    font-size: 17px !important;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 254, 254) !important;
+    background-color: #efc04a !important;
+
+}
+
+
+.card-title {
+
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgba(75, 71, 71, 0.7);
+}
+
+
+thead,
+th {
+
+    color: rgba(75, 71, 71, 0.7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+
+tbody,
+td {
+
+    color: rgba(46, 44, 44, 0.8);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+}
+
+
+.card-table-item {
+
+    overflow-x: hidden;
+    position: relative;
+    bottom: 13.7vh;
+    z-index: -1;
+
+}
+
+input[type="text"] {
+
+
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgba(75, 71, 71, 0.8);
+
+}
+
+.cp {
+
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(75, 71, 71, 0.7);
+    position: fixed;
+    bottom: 7vh;
+    left: 30vh;
+
+}
+
+.swal-title {
+    margin: auto;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgba(37, 35, 35, 0.7);
+}
+
+.swal-text {
+    margin: auto;
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgba(32, 31, 31, 0.7);
+}
+
+
+
+
+/* small */
+@media only screen and (max-width: 856px) {
+
+
+    .title-header {
+
+        display: none;
+
+
+    }
+
+    .img-header {
+
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: 40px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+    thead,
+    th,
+    tbody,
+    td {
+
+        font-size: 13px;
+
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+
+        position: relative;
+        bottom: 28px;
+    }
+
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 73px;
+    }
+
+    .table-content {
+
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .hide {
+
+        display: none;
+    }
+
+    .cp {
+
+        display: none;
+
+    }
+
+}
+
+
+/* small */
+@media only screen and (max-width: 768px) {
+
+
+    .title-header {
+
+        display: none;
+
+
+    }
+
+    .img-header {
+
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: 75px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+    thead,
+    th,
+    tbody,
+    td {
+
+        font-size: 13px;
+
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+
+        position: relative;
+        bottom: 28px;
+    }
+
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 65px;
+    }
+
+
+    .table-content {
+
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .cp {
+
+        display: none;
+
+    }
+
+    .hide {
+
+        display: none;
+    }
+
+
+}
+
+
+/* small */
+@media only screen and (max-width: 668px) {
+
+
+    .title-header {
+
+        display: none;
+
+
+    }
+
+    .img-header {
+
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: 45px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+    thead,
+    th,
+    tbody,
+    td {
+
+        font-size: 13px;
+
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+
+        position: relative;
+        bottom: 28px;
+    }
+
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 65px;
+    }
+
+    .table-content {
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .cp {
+        display: none;
+
+    }
+
+    .hide {
+
+        display: none;
+    }
+
+}
+
+
+/* small */
+@media only screen and (max-width: 576px) {
+
+
+    .title-header {
+
+        display: none;
+
+
+    }
+
+    .img-header {
+
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: 7px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+    thead,
+    th,
+    tbody,
+    td {
+
+        font-size: 13px;
+
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+
+        position: relative;
+        bottom: 28px;
+    }
+
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 65px;
+    }
+
+
+    .table-content {
+
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+
+    .cp {
+
+        display: none
+    }
+
+    .hide {
+
+        display: none;
+    }
+
+}
+
+
+/* small */
+@media only screen and (max-width: 476px) {
+
+
+    .title-header {
+
+        display: none;
+
+
+    }
+
+    .img-header {
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: 7px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+    thead,
+    th,
+    tbody,
+    td {
+
+        font-size: 13px;
+
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+
+        position: relative;
+        bottom: 28px;
+    }
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 65px;
+    }
+
+
+    .table-content {
+
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+
+    .cp {
+
+        display: none;
+
+    }
+
+    .hide {
+
+        display: none;
+    }
+
+}
+
+
+
+/* small */
+@media only screen and (max-width: 412px) {
+
+
+    .title-header {
+
+        display: none;
+
+
+    }
+
+    .img-header {
+
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: 7px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+    thead,
+    th,
+    tbody,
+    td {
+
+        font-size: 13px;
+
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+
+        position: relative;
+        bottom: 28px;
+    }
+
+
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 65px;
+    }
+
+    .table-content {
+
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .cp {
+
+        display: none;
+
+    }
+
+
+}
+
+
+/* small */
+@media only screen and (max-width: 384px) {
+
+
+    .title-header {
+
+        display: none;
+
+
+    }
+
+    .img-header {
+
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: 7px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+    thead,
+    th,
+    tbody,
+    td {
+
+        font-size: 13px;
+
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+
+        position: relative;
+        bottom: 28px;
+    }
+
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 65px;
+    }
+
+    .table-content {
+
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .cp {
+
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgba(75, 71, 71, 0.7);
+        position: relative;
+        left: 4vh;
+        bottom: 0;
+
+    }
+
+
+}
+
+
+/* extra small */
+@media only screen and (max-width: 376px) {
+
+
+    .title-header {
+
+        display: none;
+
+
+    }
+
+    .img-header {
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: -2px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+    thead,
+    th,
+    tbody,
+    td {
+
+        font-size: 13px;
+
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+        position: relative;
+        bottom: 28px;
+    }
+
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 65px;
+    }
+
+    .table-content {
+
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+    .cp {
+
+        display: none;
+
+    }
+
+
+}
+
+
+/* extra small */
+@media only screen and (max-width: 356px) {
+
+
+    .title-header {
+
+        display: none;
+
+    }
+
+    .img-header {
+
+        width: 130px;
+        height: 130px;
+        position: relative;
+        left: -12px;
+        background: transparent;
+
+    }
+
+
+    .label-text {
+
+        font-size: 15px;
+    }
+
+
+    .card-title {
+
+        font-size: 16px;
+
+
+    }
+
+
+    section {
+
+        position: relative;
+        bottom: 28px;
+    }
+
+
+    .card-table-content {
+
+        position: relative;
+        margin: auto;
+        top: 50px;
+    }
+
+
+    .table-content {
+
+        position: relative;
+        left: 0;
+        right: 0;
+        margin: auto;
+
+    }
+
+
+    .cp {
+
+        display: none;
+
+    }
+
+
+}
